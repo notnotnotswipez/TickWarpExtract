@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.swipez.tickwarpextract.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftClientMixin",
+    "MinecraftServer_tickspeedMixin",
+    "ServerMixin",
+    "PlayerEntityMixin",
+    "NewWorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
